@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 
 
+
 def get_dominant_color(image_path):
     image = Image.open(image_path).convert('RGB')
     image = image.resize((50, 50))
